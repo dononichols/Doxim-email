@@ -1,0 +1,29 @@
+-Project Images from: https://ibb.co/album/1J43gs
+
+-Doxim LOGO:
+https://i.ibb.co/LvQFbyk/doximlogo.png
+
+-Marketing Team:
+https://i.ibb.co/sj5TpVs/email-marketing-team.jpg
+
+-Shadow:
+https://i.ibb.co/Bfght63/shadow.png
+
+-Wibinar Tag:
+https://i.ibb.co/4gV54ZN/webinar.png
+
+
+-Colors:
+#000001
+#ffffff
+#062b75
+#0099d8
+#86743b
+
+
+-Google-fonts:
+@import:
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+css:
+font-family: 'Poppins', sans-serif;
