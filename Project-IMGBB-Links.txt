@@ -15,7 +15,7 @@ https://i.ibb.co/4gV54ZN/webinar.png
 
 -Colors:
 #000001
-#ffffff
+#fafdfe
 #062b75
 #0099d8
 #86743b
