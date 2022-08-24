@@ -9,6 +9,20 @@
 	<title>Doxim-html_Email</title>
    <style type="text/css">
    	@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+      /* Reset */
+      table {
+         border-spacing: 0;
+      }
+      td {
+         padding: 0;
+      }
+      p {
+         font-size: 15px;
+      }
+      img {
+         border: 0;
+      }
+
 
 		@media screen and (max-width: 599.98px) {
 
@@ -23,7 +37,15 @@
 
       }
 	</style>
+
+   <!--[if (gte mso 9)|(IE)]> 
+      <style type="text/css">
+        table {border-collapse: collapse!important;}
+      </style>
+   <![endif]-->
 </head>
+
+
 <body style="Margin:0; padding: 0; min-width: 100%; background-color: #d7d7d7;">
 
    <!-- Reset table -->
@@ -45,18 +67,21 @@
       </div>
       <!-- End of Preheader text -->
 
-      <!-- Reset table -->
+      <!-- wrapping ghost table -->
    <!--[if (gte mso 9)|(IE)]> 
-      <style type="text/css">
-         body{background-color: #d7d7d7!important;} 
-         body, table, td, p, a {font-family: sans-serif, Arial, Helvitica!important;}
-      </style>
+      <table width="600" align="center" style="border-spacing:0; color:#565656;" role="presentation">
+      <tr>
+      <td style="padding:0;">
    <![endif]-->
+
+   <!-- wrapping table -->
+   <table align="center" style="border-spacing:0; color:#565656; font-family: 'Poppins', sans-serif, Arial, Helvetica!important; background-color: #fafdfe; margin: 0; padding: 0; width: 100%; max-width: 600px;" role="presentation">
 
 
 <h1>test!!!!</h1>
 
 <!-- START LOGO ROW -->
+     
 <!-- END LOGO ROW -->
 
 <!-- START WEBINAR ROW -->
@@ -88,6 +113,14 @@
 
 <!-- START IN-AUCTOR-FOOTER ROW -->
 <!-- END IN-AUCTOR-FOOTER ROW -->
+
+   </table>
+
+<!--[if (gte mso 9)|(IE)]> 
+</td>
+</tr>
+</table>
+<![endif]-->
       </div>
    </center>
 </body>
