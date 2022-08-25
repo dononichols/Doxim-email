@@ -24,10 +24,78 @@
       }
 
 
-		@media screen and (max-width: 599.98px) {
-
-      }
+		
       @media screen and (max-width: 399.98px) {
+         /* webinar */
+         .web-col {
+            width: 100%!important;
+            max-width: 360px!important;
+           
+         }
+
+         .web-flag {
+            width: 360px!important;
+            align-items: center!important;
+         }
+
+         .webinar-p {
+            padding: 0!important;
+            font-size: 30px!important;
+            padding-bottom: 15px!important;
+         }
+
+         .web-content {
+            text-align: center!important;  
+         }
+
+         .web-column {
+            padding: 0!important;
+         }
+
+         /* watch now */
+         .watch-two-columns {
+            align-items: center!important;
+            
+         }
+
+         .watch-col {
+            align-items: center!important;
+            max-width: 400px!important;
+            
+         }
+         .watch-a {
+            font-size: 30px!important;
+            padding: 0!important;
+            align-items: center!important;
+            
+         }
+
+         .watch-td {
+            border-right: 0!important;
+            
+         }
+
+         /* Nun */
+         .nun-col {
+            max-width: 80%!important;
+            align-items: center!important;
+            text-align: center!important;
+         }
+
+         .nun-p {
+            text-align: center!important;
+            align-items: center!important;
+         }
+
+         
+         
+         
+
+         
+        
+
+
+
 
       }
 
@@ -99,7 +167,7 @@
 
 <!-- START WEBINAR ROW -->
 <tr>
-   <td style="padding: 20px 0 0 0;background-color: #fafdfe;">
+   <td class="webinar" style="padding: 20px 0 0 0;background-color: #fafdfe;">
       <table width="100%" style="border-spacing: 0;" role="presentation">
       
       <tr>
@@ -112,19 +180,17 @@
             <![endif]-->
 
             <!-- column 1 -->
-                  <table class="column" align="left" style="border-spacing: 0; vertical-align: top; width: 100%; max-width: 230px; display:inline-block;" role="presentation">
+                  <table class="web-col" align="center" style="border-spacing: 0; vertical-align: top; width: 100%; max-width: 230px; display:inline-block;" role="presentation">
                      <tr>
                         <td class="padding" style="padding: 0, 0, 0, 0px;">
 
-                           <table align="left" class="content" style="border-spacing: 0; align-items: left;" role="presentation">
+                           <table class="web-content" style="border-spacing: 0; align-items: center;" role="presentation">
                               <tr>
                                  <td style="padding: 0; ">
                                     
-                                   <img src="https://i.ibb.co/4gV54ZN/webinar.png" alt="Webinar flag" style="width: 230px; padding: 0;">
+                                   <img class="web-flag" src="https://i.ibb.co/4gV54ZN/webinar.png" alt="Webinar flag" style="width: 230px; ">
                                  </td>
                               </tr>
-                             
-                           
                            </table>
 
                         </td>
@@ -138,15 +204,15 @@
             <![endif]-->
 
             <!-- column 2 -->
-            <table class="column" style="border-spacing: 0; vertical-align: top; width: 100%; max-width: 370px; display:inline-block; padding: 20px 0 0 22px;" role="presentation">
+            <table class="web-column" style="border-spacing: 0; vertical-align: top; width: 100%; max-width: 370px; display:inline-block; padding: 20px 0 0 22px;" role="presentation">
                <tr>
                   <td class="padding" style="padding: 0, 0, 0, 0px;">
 
-                     <table class="content" style="border-spacing: 0; text-align: left; background-color: #fafdfe;" role="presentation">
+                     <table class="web-content" style="border-spacing: 0; text-align: left; background-color: #fafdfe;" role="presentation">
                         <tr>
                            <td style="padding: 0 0 0 0;">
-                            <p style="padding: 0 0 0 0;font-size: 18px; font-weight: bold; color: #000001; Margin:0;">
-                              Lorem ipsum dolor sit amet,<br>consectetur adipiscing elit.
+                            <p class="webinar-p" style="padding: 0 41px 0 0;font-size: 18px; font-weight: bold; color: #000001; Margin:0;">
+                              Lorem ipsum dolor sit amet,consectetur adipiscing elit.
                             </p>
                            </td>
                         </tr>
@@ -212,10 +278,10 @@
 <!-- START WATCH-NOW ROW -->
 <tr>
    <td style="padding: 35px 0 0 0;background-color: #fafdfe;">
-      <table width="100%" style="border-spacing: 0;" role="presentation">
+      <table width="100%" align="center" style="border-spacing: 0; text-align: center;" role="presentation">
       
       <tr>
-         <td class="two-columns" style="padding: 0 0px 0 0px; font-size: 0; text-align: center;background-color: #fafdfe;">
+         <td align="center" class="watch-two-columns" style="padding: 0 0px 0 0px; font-size: 0; text-align: center;background-color: #fafdfe;">
             <!-- Column 1 -->
             <!--[if (gte mso 9)|(IE)]> 
                table width="100%" style="border-spacing: 0;" role="presentation">
@@ -224,15 +290,15 @@
             <![endif]-->
 
             <!-- column 1 -->
-                  <table class="column" style="border-spacing: 0; vertical-align: top; width: 100%; max-width: 250px; display:inline-block;" role="presentation">
+                  <table class="watch-col" style="border-spacing: 0; vertical-align: top; width: 100%; max-width: 250px; display:inline-block;" role="presentation">
                      <tr>
                         <td class="padding" style="padding: 0, 0, 0, 0px;">
 
-                           <table class="content" style="border-spacing: 0; text-align: right;" role="presentation">
+                           <table class="watch-content" style="border-spacing: 0; text-align: right;" role="presentation">
                               <tr>
-                                 <td style="padding: 0 10px 0px 0; border-right: 2px solid #000001; ">
+                                 <td class="watch-td" style="padding: 0 10px 0px 0; border-right: 2px solid #000001; ">
                                     
-                                    <a href="https://www.doxim.com" style="padding: 0 0 0 115px;font-size: 19px; font-weight: bold; color: #86743b;">Watch Now</a>
+                                    <a href="https://www.doxim.com" class="watch-a" style="padding: 0 0 0 115px;font-size: 19px; font-weight: bold; color: #86743b;">Watch Now</a>
                                  </td>
                               </tr>
                              
@@ -250,14 +316,14 @@
             <![endif]-->
 
             <!-- column 2 -->
-            <table class="column" style="border-spacing: 0; vertical-align: top; width: 100%; max-width: 277px; display:inline-block;" role="presentation">
+            <table class="watch-col" style="border-spacing: 0; vertical-align: top; width: 100%; max-width: 277px; display:inline-block;" role="presentation">
                <tr>
                   <td class="padding" style="padding: 0, 0, 0, 0px;">
 
                      <table class="content" style="border-spacing: 0; text-align: center; background-color: #fafdfe;" role="presentation">
                         <tr>
                            <td style="padding: 0 0 0 0;">
-                              <a href="https://www.doxim.com" style="padding: 0 0 0 0;font-size: 19px; font-weight: bold; color: #86743b;">Presentation Slides</a>
+                              <a href="https://www.doxim.com" style="padding: 0 0 0 0;font-size: 19px; font-weight: bold; color: #86743b;" class="watch-a">Presentation Slides</a>
                            </td>
                         </tr>
                      </table>
@@ -287,7 +353,7 @@
       <table width="100%" style="border-spacing: 0;" role="presentation">
       
       <tr>
-         <td class="two-columns" style="padding: 0 0px 0 0px; font-size: 0; text-align: center;background-color: #fafdfe;">
+         <td class="nun-two-columns" style="padding: 0 0px 0 0px; font-size: 0; text-align: center;background-color: #fafdfe;">
             <!-- Column 1 -->
             <!--[if (gte mso 9)|(IE)]> 
                table width="100%" style="border-spacing: 0;" role="presentation">
@@ -296,7 +362,7 @@
             <![endif]-->
 
             <!-- column 1 -->
-                  <table class="column" style="border-spacing: 0; vertical-align: top; width: 100%; max-width: 270px; display:inline-block;" role="presentation">
+                  <table class="nun-col" style="border-spacing: 0; vertical-align: top; width: 100%; max-width: 270px; display:inline-block; " role="presentation">
                      <tr>
                         <td class="padding" style="padding: 0, 0, 0, 0px;">
 
@@ -304,7 +370,7 @@
                               <tr>
                                  <td style="padding: 0 10px 0px 0; ">
                                     
-                                    <p style="font-size: 18px;font-weight: bold; color: #062b75; text-align: left; Margin: 0;">NUNC SED POSUERE LIBERO</p>
+                                    <p class="nun-p" style="font-size: 18px;font-weight: bold; color: #062b75; text-align: left; Margin: 0;">NUNC SED POSUERE LIBERO</p>
                                  </td>
                               </tr>
                              
@@ -322,7 +388,7 @@
             <![endif]-->
 
             <!-- column 2 -->
-            <table class="column" style="border-spacing: 0; vertical-align: top; width: 100%; max-width: 267px; display:inline-block;" role="presentation">
+            <table class="nun-col" style="border-spacing: 0; vertical-align: top; width: 100%; max-width: 267px; display:inline-block;" role="presentation">
                <tr>
                   <td class="padding" style="padding: 0, 0, 0, 0px;">
 
@@ -752,7 +818,7 @@
 <!-- END IMPORTANT-NOTICE ROW -->
 
 <!-- START IN-AUCTOR-FOOTER ROW -->
-tr>
+<tr>
    <td>
       <table width="100%" max-width="600px" align="center" style="border-spacing: 0; Margin:0;" role="presentation">
          <tr>
